@@ -13,12 +13,7 @@ namespace FizzBuzz.Test
         {
             var fizzBuzzBusiness = new FizzBuzzBusiness();
 
-            var expectedResult = @"1 2 luck 4 buzz fizz 7 8 fizz buzz 11 fizz luck 14 fizzbuzz 16 17 fizz 19 buzz
-fizz: 4
-buzz: 3
-fizzbuzz: 1
-luck: 2
-number: 10";
+            var expectedResult = "1 2 luck 4 buzz fizz 7 8 fizz buzz 11 fizz luck 14 fizzbuzz 16 17 fizz 19 buzz";
 
             Assert.AreEqual(fizzBuzzBusiness.ProcessInputRange(1, 20), expectedResult);
         }
