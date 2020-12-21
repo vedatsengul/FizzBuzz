@@ -23,11 +23,6 @@ namespace FizzBuzz.Business
 
         private string ProcessSingleNumber(int number)
         {
-            if (number.ToString().Contains("3"))
-            {
-                return "luck";
-            }
-
             if (number % 15 == 0)
             {
                 return "fizzbuzz";
