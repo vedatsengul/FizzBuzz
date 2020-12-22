@@ -7,6 +7,7 @@ namespace FizzBuzz
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Please enter the number range that you want to proceed with a single space between the numbers. Then press enter. e.g. 1 20");
             var input = Console.ReadLine();
             int start = 0;
             int end = 0;
